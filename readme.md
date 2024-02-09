@@ -1,8 +1,9 @@
 
 ![Screenshot](architecture.png)
-## To Run backend and client
-run command - docker compose up 
+## To Run backend and client and device stimulation
+run command - docker compose up -d
 
-## To start device data stream stimulation 
-run command - cd IotDevices; node index.js
-
+## frontend : 
+link - http://localhost:9000/  
+## backend : 
+link - http://localhost:4000/ 
