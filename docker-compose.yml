@@ -1,12 +1,26 @@
 version: '1.0'
-services:
+services: 
   api:
     build: ./Server
     container_name: iot-backend
     ports:
       - "4000:4000"
+
+  device: 
+    build: ./IotDevices
+    container_name: iot-device
+    links: 
+      - api
+    depends_on: 
+      - api
   frontend:
     build: ./client
     container_name: iot-frontend
     ports:
       - "9000:3000"
+    links: 
+      - api
+    depends_on: 
+      - api
+
+    

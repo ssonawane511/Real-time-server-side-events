@@ -4,7 +4,7 @@ const getRandomData = (min, max) => {
 // fake call
 const sendDataToServer = () => {
     
-    fetch("http://localhost:4000/api/iot", {
+    fetch("http://api:4000/api/iot", {
         method: "POST",
         body: JSON.stringify({
             "deviceId": "Device-1",
