@@ -1,7 +1,7 @@
 Checkout Blog : https://dev.to/ssonawane511/real-time-updates-in-mern-applications-with-server-sent-events-4ih
 
 ![Screenshot](architecture.png)
-## To Run backend and client and device stimulation
+## To Run backend, client and device stimulation
 run command - docker compose up -d
 
 ## frontend : 
